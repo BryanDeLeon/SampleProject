@@ -1,16 +1,26 @@
 public class Employee {
 
-	private int employeeId;
+private int id;
+private String firstName;
 
-p	ublic Employee() {
-		this.employeeId = 1;
-	}
+public Employee() {
+this.id = 1;
+this.firstName = "Juan";
+}
 
-	public void setEmployeeId(int employeeId) {
-		this.employeeId = employeeId;
-	}
+public void setId(int id) {
+this.id = id;
+}
 
-	public int getEmployeeId() {
-	return employeeId;
-	}
+public int getId() {
+return id;
+}
+
+public void setFirstName(String firstName) {
+this.firstName = firstName;
+}
+
+public String getFirstName() {
+return firstName;
+}
 }
